@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" class="overflow-x-hidden">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
   </style>
 
 </head>
-<body class=" bg-gray-50">
+<body class="flex flex-col bg-gray-50 overflow-x-hidden">
     <header class=" z-50 fixed w-full bg-[#6e5827]/70 backdrop-blur-md">
          <div class="mx-10">
             <div class=" ld:mx-auto relative flex md:max-w-screen flex-col py-4 sm:w-auto sm:flex-row sm:items-center sm:justify-between text-black">
@@ -28,17 +28,17 @@
                 </label>
                 <nav class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
                     <ul class="flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
-                        <li class=""><a class="hover:text-[#b58b1f]" href="#">Beranda</a></li>
-                        <li class=""><a class="hover:text-[#b58b1f]" href="#">Eksplorasi</a></li>
-                        <li class=""><a class="hover:text-[#b58b1f]" href="#">Tentang </a></li>
-                        <li class=""><a class="hover:text-[#b58b1f]" href="#">Kontak</a></li>
+                        <li class=""><a class="hover:text-[#b58b1f]" href="index.html">Beranda</a></li>
+                        <li class=""><a class="hover:text-[#b58b1f]" href="index.html#start">Eksplorasi</a></li>
+                        <li class=""><a class="hover:text-[#b58b1f]" href="index.html#tentang">Tentang </a></li>
+                        <li class=""><a class="hover:text-[#b58b1f]" href="index.html#kontak">Kontak</a></li>
                     </ul>
                 </nav>
         </div>
     </header>
 
-    <div class="bg-[#6e5827]/10">
-        <section class="h-full flex flex-col justify-center items-center px-8 bg-gradient-to-b from-gray to-[#6e5827]/40 text-center">
+    <div class="bg-[#6e5827]/10 pt-10">
+        <section class="min-h-screen pt-10 flex flex-col justify-center items-center px-8 bg-gradient-to-b from-gray to-[#6e5827]/40 text-center">
             <h1 class="text-4xl md:text-6xl font-bold tracking-wide leading-tight text-[#4b3d1f] drop-shadow-md">Destinasi Jiwa</h1>
             <img src="img/gapura.png" alt="Bali" class="w-120 mb-4">
             <h1 class="text-3xl md:text-4xl font-bold tracking-wide leading-tight text-[#4b3d1f] ">Menapaki Jejak Suci Menuju Cahaya</h1> <br>
@@ -50,11 +50,11 @@
             </div>
         </section>
 
-        <section class=" flex flex-row gap-4 px-6 md:px-20 py-10 bg-gradient-to-b from-[#6e5827]/40 to-[#6e5827]/15" data-aos="fade-left">
-            <div class="flex justify-center mb-8">
-                <img src="img/lempuyang2.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl h-135 w-750" />
+        <section class=" flex flex-col lg:flex-row gap-4 px-6 md:px-20 py-10 bg-gradient-to-b from-[#6e5827]/40 to-[#6e5827]/15" data-aos="fade-left">
+            <div class="flex justify-center mb-8 lg:w-1/2">
+                <img src="img/lempuyang2.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl w-auto aspect-[3/2] " />
             </div>
-            <div class="bg-white-400 rounded-xl shadow-md p-6 mb-6 max-w-4xl mx-auto">
+            <div class="bg-white-400 rounded-xl shadow-md p-6 mb-6 max-w-4xl lg:w-1/2 mx-auto">
                 <h2 class="text-4xl md:text-5xl font-bold text-[#4b3d1f] mb-2">Pura Luhur Lempuyang</h2><br>
                 <p class="text-xl text-[#4b3d1f]/85 italic"><strong>Gapura Menuju Langit</strong></p>
                 <p class="text-gray-900 text-justify">Tersembunyi di ketinggian Gunung Lempuyang, berdiri salah satu pura tertua di Bali. Dari kejauhan, <strong>Gapura Penataran Agung</strong> terlihat seperti <strong>pintu surga yang membelah langit</strong>. Tapi bagi umat Hindu Bali, tempat ini lebih dari sekadar lanskap—ini adalah tempat <strong>pembebasan dari ego dan ilusi duniawi</strong>.</p> <br>
@@ -70,11 +70,11 @@
             </div>
         </section>
 
-        <section class=" flex flex-row gap-4 px-6 md:px-20 py-10 bg-gradient-to-b from-[#6e5827]/15 to-[#6e5827]/15" data-aos="fade-right">
-            <div class="flex justify-center mb-8">
-                <img src="img/sudamala1.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl h-135 w-750" />
+        <section class=" flex flex-col lg:flex-row gap-4 px-6 md:px-20 py-10 bg-gradient-to-b from-[#6e5827]/15 to-[#6e5827]/15" data-aos="fade-right">
+            <div class="flex justify-center mb-8 lg:w-1/2">
+                <img src="img/sudamala1.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl aspect-[50/9]" />
             </div>
-            <div class="bg-white-400 rounded-xl shadow-md p-6 mb-6 max-w-4xl mx-auto">
+            <div class="bg-white-400 rounded-xl shadow-md p-6 mb-6 max-w-4xl mx-auto lg:w-1/2">
                 <h2 class="text-4xl md:text-5xl font-bold text-[#4b3d1f] mb-2">Pura Tirta Sudamala</h2><br>
                 <p class="text-xl text-[#4b3d1f]/85 italic"><strong>Pancuran Suci Penjernih Jiwa</strong></p>
                 <p class="text-gray-900 text-justify">Di tepi lembah rimbun Desa Bebalang, mengalir mata air purba yang dipercaya sebagai <strong>anugerah penyucian dari alam semesta</strong>. Di sinilah berdiri Pura Tirta Sudamala, tempat orang datang untuk melukat (pembersihan spiritual) dari stres, gangguan energi, hingga luka batin yang dalam.</p> <br>
@@ -89,11 +89,12 @@
             </div>
         </section>
 
-        <section class=" flex flex-row gap-4 px-6 md:px-20 py-10 bg-gradient-to-b from-[#6e5827]/15 to-[#6e5827]/15" data-aos="fade-left">
-            <div class="flex justify-center mb-8">
-                <img src="img/pingitsebatu2.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl h-135 w-750" />
+        <section class=" flex flex-col lg:flex-row gap-4 px-6 md:px-20 py-10 bg-gradient-to-b from-[#6e5827]/15 to-[#6e5827]/15" data-aos="fade-left">
+            <div class="flex justify-center mb-8 lg:w-1/2">
+                <!-- <img src="img/lempuyang1.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl h-100 w-500" /> -->
+                <img src="img/pingitsebatu2.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl aspect-[50/9]" />
             </div>
-            <div class="bg-white-400 rounded-xl shadow-md p-6 mb-6 max-w-4xl mx-auto">
+            <div class="bg-white-400 rounded-xl shadow-md p-6 mb-6 max-w-4xl mx-auto lg:w-1/2">
                 <h2 class="text-4xl md:text-5xl font-bold text-[#4b3d1f] mb-2">Pura Dalem Pingit Sebatu </h2><br>
                 <p class="text-xl text-[#4b3d1f]/85 italic"><strong>Pusat Pengelukatan Jiwa</strong></p>
                 <p class="text-gray-900 text-justify">Di desa Sebatu yang sejuk, mengalir pancuran-pancuran air jernih di Pura Dalem Pingit Sebatu. Tempat ini <strong>tidak untuk wisatawan biasa</strong>, melainkan untuk mereka yang benar-benar ingin <strong>menyucikan jiwa, memohon kesembuhan, dan melepaskan beban batin</strong>.</p> <br>
@@ -108,11 +109,12 @@
             </div>
         </section>
 
-        <section class=" flex flex-row gap-4 px-6 md:px-20 py-10 bg-gradient-to-b from-[#6e5827]/15 to-[#6e5827]/15" data-aos="fade-right">
-            <div class="flex justify-center mb-8">
-                <img src="img/segararupek1.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl h-145 w-750" />
+        <section class=" flex flex-col lg:flex-row gap-4 px-6 md:px-20 py-10 bg-gradient-to-b from-[#6e5827]/15 to-[#6e5827]/15" data-aos="fade-right">
+            <div class="flex justify-center mb-8 lg:w-1/2">
+                <!-- <img src="img/lempuyang1.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl h-100 w-500" /> -->
+                <img src="img/berita_PuraSegaraRupekSuratanPentingSejarahBaliDwipa.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl w-full " />
             </div>
-            <div class="bg-white-400 rounded-xl shadow-md p-6 mb-6 max-w-4xl mx-auto">
+            <div class="bg-white-400 rounded-xl shadow-md p-6 mb-6 max-w-4xl mx-auto lg:w-1/2">
                 <h2 class="text-4xl md:text-5xl font-bold text-[#4b3d1f] mb-2">Pura Segara Rupek</h2><br>
                 <p class="text-xl text-[#4b3d1f]/85 italic"><strong>Penjaga Lautan Barat Bali</strong></p>
                 <p class="text-gray-900 text-justify">Tersembunyi di jantung hutan Bali Barat, Pura Segara Rupek berdiri sunyi di tepi tebing menghadap lautan. Di tempat sakral ini, warga memohon <strong>perlindungan dan keseimbangan alam</strong>—antara kekuatan darat dan ombak yang tak henti menghantam batas barat pulau. Pura ini menjadi <strong>benteng spiritual terakhir Bali sebelum laut menuju Jawa</strong>.</p> <br>
@@ -127,11 +129,12 @@
             </div>
         </section>
 
-        <section class=" flex flex-row gap-4 px-6 md:px-20 py-10 bg-gradient-to-b from-[#6e5827]/15 to-[#6e5827]/40" data-aos="fade-left">
-            <div class="flex justify-center mb-8">
-                <img src="img/puncakmangu2.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl h-135 w-750" />
+        <section class=" flex flex-col lg:flex-row gap-4 px-6 md:px-20 py-10 bg-gradient-to-b from-[#6e5827]/15 to-[#6e5827]/40" data-aos="fade-left">
+            <div class="flex justify-center mb-8 lg:w-1/2">
+                <!-- <img src="img/lempuyang1.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl h-100 w-500" /> -->
+                <img src="img/puncakmangu2.jpg" alt="Pura Luhur Lempuyang" class="rounded-2xl shadow-xl aspect-[50/9] " />
             </div>
-            <div class="bg-white-400 rounded-xl shadow-md p-6 mb-6 max-w-4xl mx-auto">
+            <div class="bg-white-400 rounded-xl shadow-md p-6 mb-6 max-w-4xl mx-auto lg:w-1/2">
                 <h2 class="text-4xl md:text-5xl font-bold text-[#4b3d1f] mb-2">Pura Puncak Mangu </h2><br>
                 <p class="text-xl text-[#4b3d1f]/85 italic"><strong>Pertemuan Langit dan Danau</strong></p>
                 <p class="text-gray-900 text-justify">Di atas punggung Gunung Mangu, jauh dari keramaian, berdiri Pura Puncak Mangu — sebuah tempat di mana <strong>empat penjuru energi alam bertemu</strong>. Di sinilah peziarah berdiri di antara langit, danau, dan kabut pegunungan, merasakan <strong>getaran kesucian yang menggetarkan dada</strong>.</p> <br>
@@ -147,9 +150,10 @@
         </section>
 
         <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-[#6e5827]/40 to-[#6e5827]/15" data-aos="zoom-in">
+            <!-- <h1 class="text-3xl md:text-7xl font-bold tracking-wide leading-tight text-[#4b3d1f] drop-shadow-md"></h1> -->
             <img src="img/ending.png" alt="Bali" class="w-150 mb-4"> <br>
             <h1 class="text-4xl md:text-5xl font-bold tracking-wide leading-tight text-[#4b3d1f] drop-shadow-md">Menemukan Tuhan di Tengah Kabut dan Sunyi</h1> <br><br>
-
+            <!-- <img src="img/ending.png" alt="Bali" class="w-120 mb-4"> -->
             <div class="max-w-4xl text-lg text-justify leading-relaxed text-black-900 space-y-6 px-6 md:px-0">
                 <p><strong>“Destinasi Jiwa”</strong> bukan soal tempat, tapi soal perjalanan ke dalam diri. Setiap pura ini adalah panggilan untuk berhenti sejenak dari hiruk-pikuk dunia, menunduk pada alam, dan membiarkan cahaya masuk dari dalam. Bali menyimpan lebih dari sekadar eksotisme. Ia menyimpan getaran spiritual yang hanya bisa dirasakan jika kamu membuka hatimu, dan menapaki jalur-jalur sunyi menuju jiwa.</p>
             </div> <br> <br><br>
@@ -160,7 +164,7 @@
         </section>
     </div>
     <footer class='py-10 px-10 bg-[#6e5827]'>
-       <div class="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-20 lg:grid-cols-3 gap-y-10 lg:gap-x-28 text-white flex-wrap justify-between " id="footer">
+       <div class="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-20 lg:grid-cols-3 gap-y-10 lg:gap-x-28 text-white flex-wrap justify-between md:mx-auto " id="footer">
             <div class="lg:pl-20" >
                 <h3 class="text-xl font-bold">Bali Bali Unseen</h3>
                 <p class="mt-5">Di balik gemerlapnya pariwisata, Bali menyimpan kisah-kisah sunyi. Bali Unseen mengajakmu melihat lebih dalam.</p>
@@ -169,18 +173,16 @@
             <div class="lg:mx-auto">
                 <h3 class="text-xl font-bold">Quick Links</h3>
                 <ul class="mt-5 ">
-                    <li class="mt-2.5"><a class="no-underline text-inherit hover:hover:text-[#b58b1f] hover:font-bold" href="index.html#beranda">Beranda</a></li>
-                    <li class="mt-2.5"><a class="no-underline text-inherit hover:hover:text-[#b58b1f] hover:font-bold" href="index.html#eksplorasi">Eksplorasi</a></li>
-                    <li class="mt-2.5"><a class="no-underline text-inherit hover:hover:text-[#b58b1f] hover:font-bold" href="about.html">Tentang Kami</a></li>
+                    <li class="mt-2.5"><a class="no-underline text-inherit hover:hover:text-[#b58b1f] hover:font-bold" href="index.html">Beranda</a></li>
+                    <li class="mt-2.5"><a class="no-underline text-inherit hover:hover:text-[#b58b1f] hover:font-bold" href="index.html#start">Eksplorasi</a></li>
+                    <li class="mt-2.5"><a class="no-underline text-inherit hover:hover:text-[#b58b1f] hover:font-bold" href="index.html#tentang">Tentang Kami</a></li>
                 </ul>
             </div>
 
             <div class="">
                 <h3 class="text-xl font-bold ">Hubungi Kami Melalui :</h3>
-                <div class="flex items-center text-xl mt-5 ">
-                    <a class="mr-5 text-2xl  hover:hover:text-[#b58b1f] " href="https://www.instagram.com/unseenbalii1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a class="mr-5 text-2xl  hover:hover:text-[#b58b1f] " href="https://www.facebook.com/unseenbalii1" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a class="mr-5 text-2xl  hover:hover:text-[#b58b1f] " href="https://wa.me/+6289602674136" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <div class=" items-center text-xl mt-5 ">
+                    <iframe class="md:w-2xl md:flex lg:w-80" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31542.68705379006!2d115.15330560000001!3d-8.8014848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244c13ee9d753%3A0x6c05042449b50f81!2sPoliteknik%20Negeri%20Bali!5e0!3m2!1sid!2sid!4v1751847890803!5m2!1sid!2sid" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             
